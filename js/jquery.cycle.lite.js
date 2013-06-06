@@ -232,4 +232,4 @@ $.fn.cycle.defaults = {
     timeout:       4000
 };
 
-})(jQuery);
+    })(jQuery);
