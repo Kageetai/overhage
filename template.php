@@ -35,7 +35,7 @@ if (!defined('IN_GS')) {
 
     <div id="left">
         <ul id="nav">
-            <li><a href="<?php get_page_url(); ?>">Start</a></li>
+            <li><a href="<?php get_site_url(); ?>">Start</a></li>
             <?php get_navigation(return_page_slug()); ?>
         </ul>
         <div class="address">
