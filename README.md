@@ -3,7 +3,8 @@ Overhage
 
 [GetSimple CMS](http://get-simple.info/) Theme for local paint company
 
-Frameworks used:
+Frameworks
+----------
 - [GetSimpleCMS](http://get-simple.info/)
 - [SASS](http://sass-lang.com/)
 - [Foundation](http://foundation.zurb.com/)
