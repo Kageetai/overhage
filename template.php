@@ -26,8 +26,8 @@ if (!defined('IN_GS')) {
             <p>Dietmar Overhage</p>
 
             <p class="subheader">Malermeisterbetrieb</p>
-            <div class="headerlogo"></div>
         </a>
+        <div class="headerlogo"></div>
     </div>
 </div>
 
