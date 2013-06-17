@@ -1,8 +1,4 @@
-<?php
-if (!defined('IN_GS')) {
-    die('you cannot load this page directly.');
-}
-?>
+<?php if (!defined('IN_GS')) { die('you cannot load this page directly.'); } ?>
 
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -50,11 +46,8 @@ if (!defined('IN_GS')) {
     </section>
 
     <section id="right">
-        <?php //get_component('slides'); ?>
         <?php include('slides.inc.php'); ?>
     </section>
-
-    <!--	<div class="clear"></div>-->
 
     <?php get_footer(); ?>
 
@@ -64,28 +57,11 @@ if (!defined('IN_GS')) {
     <div class="webmaster">Webmaster <a href="http://Kageetai.net">Kageetai.net</a></div>
 </div>
 
-<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
 <script src="<?php get_theme_url(); ?>/js/jquery-1.9.1.min.js"></script>
 <script src="<?php get_theme_url(); ?>/js/foundation/foundation.js"></script>
-<!--<script src="js/foundation/foundation.alerts.js"></script>-->
-<!--<script src="js/foundation/foundation.clearing.js"></script>-->
-<!--<script src="js/foundation/foundation.cookie.js"></script>-->
-<!--<script src="js/foundation/foundation.dropdown.js"></script>-->
-<!--<script src="js/foundation/foundation.forms.js"></script>-->
-<!--<script src="js/foundation/foundation.joyride.js"></script>-->
-<!--<script src="js/foundation/foundation.magellan.js"></script>-->
-<!--<script src="js/foundation/foundation.orbit.js"></script>-->
-<!--<script src="js/foundation/foundation.placeholder.js"></script>-->
-<!--<script src="js/foundation/foundation.reveal.js"></script>-->
-<!--<script src="js/foundation/foundation.section.js"></script>-->
-<!--<script src="js/foundation/foundation.tooltips.js"></script>-->
-<!--<script src="js/foundation/foundation.topbar.js"></script>-->
 <script src="<?php get_theme_url(); ?>/js/jquery.cycle.lite.js" type="text/javascript" charset="utf-8"></script>
 <script>
     $(document).foundation();
-//    $('.headerlogo').click(function() {
-//        $('.headertext').toggleClass('clicked');
-//        $('.headertext > p').fadeToggle();
     $('#slides').cycle({
         fit: 1,
         nowrap: 1,
